@@ -17,10 +17,13 @@
   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
-#ifndef _MODBUS_RTU_CLIENT_H_INCLUDED
-#define _MODBUS_RTU_CLIENT_H_INCLUDED
 #ifndef RS485_SER_CONF_TYPE
 #define RS485_SER_CONF_TYPE uint16_t
+#endif
+
+#ifndef _MODBUS_RTU_CLIENT_H_INCLUDED
+#define _MODBUS_RTU_CLIENT_H_INCLUDED
+
 
 #include "ModbusClient.h"
 #include <ArduinoRS485.h>

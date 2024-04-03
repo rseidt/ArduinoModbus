@@ -5,6 +5,11 @@
  * SPDX-License-Identifier: LGPL-2.1+
  */
 
+#ifndef RS485_SER_CONF_TYPE
+#define RS485_SER_CONF_TYPE uint16_t
+#endif
+
+
 #ifndef MODBUS_RTU_PRIVATE_H
 #define MODBUS_RTU_PRIVATE_H
 
@@ -33,8 +38,7 @@
 #define ENOTSUP WSAEOPNOTSUPP
 #endif
 
-#ifndef RS485_SER_CONF_TYPE
-#define RS485_SER_CONF_TYPE uint16_t
+
 /* WIN32: struct containing serial handle and a receive buffer */
 #define PY_BUF_SIZE 512
 struct win32_ser {
